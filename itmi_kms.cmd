@@ -1,5 +1,5 @@
 chcp 936
-@echo off&PUSHD  &TITLE Mrxn_Blog_KMS激活工具
+@echo off&PUSHD  &TITLE Itmi_KMS激活工具
 mode con cols=75 lines=25
 setlocal EnableDelayedExpansion&color 70 & cd /d "%~dp0"
 %1 %2
@@ -11,7 +11,7 @@ set KMS_Sev=kms.mrxn.net
 cls
 echo VL版本系列windows和office激活脚本;
 echo 首先感谢vlmcsd的作者,其GitHub项目地址:https://github.com/Wind4/vlmcsd
-echo PC脚本作者:Mrxn;                                                   
+
 echo ======================================================
 echo m    m                             mm   m          m
 echo ##  ##  m mm  m   m  m mm          #"m  #  mmm   mm#mm
@@ -20,9 +20,9 @@ echo # "" #  #      m#m   #   #         #  # # #""""    #
 echo #    #  #     m" "m  #   #    #    #   ## "#mm"    "mm
 echo =======================================================                                                       
 
-echo 我的个人博客:https://mrxn.net/;
-echo kms服务器地址:kms.mrxn.net,方便喜欢手动激活的朋友;
-echo 有问题请反馈在我的博客留言，或者发送至我的邮箱:admin@mrxn.net;
+echo 我的个人博客:https://www.itmi.win;
+echo kms服务器地址:kms.itmi.win,方便喜欢手动激活的朋友;
+
 echo 正在检查与激活服务器的连接情况......请耐心等待;
 echo.
 ping kms.mrxn.net | find "超时"  > NUL &&  goto fail
